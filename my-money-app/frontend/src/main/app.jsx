@@ -1,17 +1,18 @@
-import '../common/templete/dependencies'
+import '../common/template/dependencies'
 import React from 'react'
+import Header from '../common/template/header'
+import SideBar from '../common/template/sideBar'
+import Footer from '../common/template/footer'
+import Messages from '../common/msg/messanges'
 
-import Header from '../common/templete/header'
-import SideBar from '../common/templete/sideBar'
-import Footer from '../common/templete/footer'
-import Routes from './routes'
-export default props =>(
+export default props => (
     <div className='wrapper'>
-        <Header/>
-        <SideBar/>
-        <div className='content-wrapper'>
-            <Routes/>
+        <Header />
+        <SideBar />
+        <div className='content-wrapper'> 
+            {props.children}
         </div>
-        <Footer></Footer>
+        <Footer />
+        <Messages />
     </div>
 )
