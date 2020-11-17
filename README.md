@@ -1,5 +1,5 @@
 # instalações
-- [ ] nodejs
+- [x] nodejs
 - [x] mongo 
   __para alguns projetos__
  
