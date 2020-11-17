@@ -1,7 +1,7 @@
 # instalações
-### node.js
-### mongoDB
-  para alguns projetos 
+- [ ] nodejs
+- [x] mondo
+  __para alguns projetos__
  
 # comando
 ## mongod
