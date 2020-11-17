@@ -1,6 +1,6 @@
 # instalações
 - [ ] nodejs
-- [x] mondo
+- [x] mongo 
   __para alguns projetos__
  
 # comando
